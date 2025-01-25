@@ -1,9 +1,9 @@
 const Header = () => {
   return (
     <section className="bg-gray-100 w-full text-gray-800 overflow-hidden">
-      <div className="container paddings innerWidth flexCenter flex flex-col justify-center mx-auto px-20 sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+      <div className="container paddings innerWidth flexCenter flex flex-col-reverse justify-center mx-auto px-20 sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left md:p-6">
-          <h1 className="text-xl font-bold leading-none md:text-5xl">
+          <h1 className="text-4xl font-bold leading-none md:text-5xl">
             Let's learn
             <span className="text-primary">Together</span>
           </h1>

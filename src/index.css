@@ -4,6 +4,12 @@
   --primary: rgb(249, 115, 22);
 }
 
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
 .text-primary {
   color: var(--primary);
 }
@@ -42,6 +48,11 @@ a {
   color: rgb(140 139 139);
   font-size: 0.9rem;
 }
+/* 
+.rosePinkText {
+  font-size: 1.2rem;
+  font-weight: 600;
+} */
 
 /* media queries */
 @media (min-width: 1536px) {
