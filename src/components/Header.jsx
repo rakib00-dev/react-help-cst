@@ -1,11 +1,11 @@
 const Header = () => {
   return (
-    <section className="dark:bg-gray-100 dark:text-gray-800">
-      <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-        <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-          <h1 className="text-5xl font-bold leading-none sm:text-6xl">
-            Ac mattis
-            <span className="dark:text-blue-600">senectus</span>erat pharetra
+    <section className="bg-gray-100 w-full text-gray-800 overflow-hidden">
+      <div className="container paddings innerWidth flexCenter flex flex-col justify-center mx-auto px-20 sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+        <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left md:p-6">
+          <h1 className="text-xl font-bold leading-none md:text-5xl">
+            Let's learn
+            <span className="text-primary">Together</span>
           </h1>
           <p className="mt-6 mb-8 text-lg sm:mb-12">
             Dictum aliquam porta in condimentum ac integer
@@ -16,14 +16,14 @@ const Header = () => {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="px-8 py-3 text-lg font-semibold rounded dark:bg-blue-600 dark:text-gray-50"
+              className="px-8 py-3 text-lg font-semibold rounded bg-primary text-gray-50"
             >
               Suspendisse
             </a>
             <a
               rel="noopener noreferrer"
               href="#"
-              className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-800"
+              className="px-8 py-3 text-lg font-semibold border rounded border-gray-800"
             >
               Malesuada
             </a>
@@ -31,7 +31,7 @@ const Header = () => {
         </div>
         <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
           <img
-            src="assets/svg/Business_SVG.svg"
+            src="https://mambaui.com/assets/svg/Business_SVG.svg"
             alt=""
             className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
           />
