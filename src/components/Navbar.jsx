@@ -13,11 +13,11 @@ const Navbar = () => {
   };
 
   return (
-    <header className="text-gray-600 body-font overflow-hidden">
-      <div className="container w-full mx-auto flex justify-between flex-wrap py-5 px-20 flex-row items-center">
-        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <header className="absolute bg-white w-full text-gray-600 body-font overflow-hidden">
+      <div className="container w-full mx-auto flex justify-between flex-wrap py-5 px-5 flex-row items-center md:px-10">
+        <a className="flex title-font  font-medium justify-center items-center text-gray-900 ">
           <span className="ml-3 text-2xl font-bold md:text-4xl">
-            Let's <span className="text-primary">Learn</span>
+            Let's <span className="text-primary">Help</span>
           </span>
         </a>
         <OutsideClickHandler
@@ -29,16 +29,20 @@ const Navbar = () => {
             className="flex flex-wrap items-center text-base justify-between h-menu md:ml-auto"
             style={getMenuStyle(menuOpened)}
           >
-            <div>
-              <a className="mr-5 hover:text-gray-900">First Link</a>
-              <a className="mr-5 hover:text-gray-900">Second Link</a>
-              <a className="mr-5 hover:text-gray-900">Third Link</a>
-              <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+            <div className="flex flex-col gap-4 md:gap- md:flex-row">
+              <a className="mr-5 p-2 font-semibold text-md hover:text-gray-900 active:text-gray-950 md:text-lg">
+                Home
+              </a>
+              <a className="mr-5 p-2 font-semibold text-md hover:text-gray-900 active:text-gray-950 md:text-lg">
+                Resource Docs
+              </a>
+              <a className="mr-5 p-2 font-semibold text-md hover:text-gray-900 active:text-gray-950 md:text-lg">
+                Choose Career
+              </a>
+              <a className="transition-all mr-5 border rounded p-2 font-semibold text-md flex justify-center items-center gap-1 hover:text-white hover:bg-orange-500 active:bg-orange-500/30 active:text-white/80 md:text-lg">
+                Roadmaps <FaArrowRight />
+              </a>
             </div>
-            <button className="flex items-center justify-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-              Button
-              <FaArrowRight className="font-bold" style={{ fontWeight: 100 }} />
-            </button>
           </div>
         </OutsideClickHandler>
         <div
